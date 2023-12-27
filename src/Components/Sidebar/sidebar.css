@@ -1,0 +1,173 @@
+.compose_button {
+  width: 125px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--blue);
+  margin: 10px;
+  border-radius: 15px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.sm_logo{
+  display: none;
+}
+
+.compose_button div:nth-child(2) {
+  font-size: 11px;
+}
+
+.compose_button:hover {
+  box-shadow: #0000003d 0px 3px 8px;
+}
+
+.all_options {
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 50px;
+  padding-right: 5px;
+  font-size: 11px;
+}
+
+.side_option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+  padding-left: 25px;
+  color: #3c3c3c;
+  cursor: pointer;
+}
+
+.sub_options {
+  margin-left: 20px;
+  max-height: 100px;
+}
+
+.sub_option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+  padding-left: 25px;
+  color: #535353;
+  cursor: pointer;
+}
+
+.side_option div:nth-child(1) {
+  margin-top: 3px;
+}
+
+.side_option:hover {
+  background-color: #e8e8e8;
+  border-radius: 0 20px 20px 0;
+}
+
+.active .side_option {
+  background-color: var(--navHover) !important;
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.categories_arrow {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-left: -18px !important;
+}
+
+.categories_arrow:hover {
+  background-color: #dddddd;
+  border-radius: 2px;
+}
+
+.expanded {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 4px 2px;
+}
+
+.expanded:hover {
+  background-color: #e8e8e8;
+  border-radius: 0 20px 20px 0;
+}
+
+.expanded_left_side {
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.cat_option {
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat_option:hover {
+  background-color: #aaaaaa;
+  transition: 0.3s;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  color: #535353;
+  padding: 0 12px 0 22px;
+}
+
+.label_logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #535353;
+}
+
+.label_logo:hover {
+  background-color: var(--hover);
+}
+
+@media (max-width: 800px) {
+
+  .sm_logo{
+    display: block;
+    padding: 10px 25px;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--main);
+  }
+
+  .compose_button {
+    display: none;
+  }
+
+  .sidebar {
+     width: 90%;
+     overflow: hidden;
+     transition: width 0.3s ease-in-out;
+   }
+
+}

@@ -1,0 +1,60 @@
+.mail_subject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 50px;
+}
+
+.mail_subject p {
+  font-size: 18px;
+}
+
+.mail_sub_icon {
+  display: flex;
+  color: #e4e4e4 !important;
+}
+
+.mail_sender_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.sender_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.sender_info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reactions_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.reactions_sec p{
+    font-size: 10px;
+    color: gray;
+}
+
+.mail_con{
+    padding: 40px;
+}
+
+.mail_con p{
+    font-size: 12px; 
+}

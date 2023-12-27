@@ -1,0 +1,63 @@
+.mail_page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+}
+
+.left_mail_page_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.basic {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.basic:hover {
+  background-color: #e4e4e4;
+  transition: 0.4s;
+}
+
+.first_icon_set,
+.second_icon_set,
+.third_icon_set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #ececec;
+}
+
+.third_icon_set {
+  border-right: none;
+}
+
+.right_mail_page_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_mail_page_header p {
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .right_mail_page_header p:hover {
+    background-color: #ececec;
+    transition: 0.5s;
+  }

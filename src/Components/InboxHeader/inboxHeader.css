@@ -1,0 +1,90 @@
+.inbox_header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.left_inb_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #2e2e2ecc;
+}
+
+.first_sec,
+.last_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.first_sec input {
+  border: 3px solid black;
+  width: 15px;
+  height: 15px;
+}
+
+.first_sec_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.first_sec > :hover {
+  background-color: #ececec;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.last_sec_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.last_sec_icon:hover {
+  background-color: #ececec;
+  transition: 0.5s;
+}
+
+.last_sec {
+  gap: 0px;
+}
+
+.rightt_inb_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #2e2e2ecc;
+}
+
+.rightt_inb_header p {
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.rightt_inb_header p:hover {
+  background-color: #ececec;
+  transition: 0.5s;
+}
+
+@media (max-width: 800px) {
+  .inbox_header {
+    display: none;
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "all_mails": [
+    {
+      "id": 1,
+      "name": "Someone from Google",
+      "subject": "New application Invented",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis dignissim purus. Sed diam orci, sollicitudin non aliquet ultricies, suscipit vitae elit. V In nulla sapien, pretium at suscipit.",
+      "time": "11:18",
+      "date": "12, Oct, 2023"
+    },
+    {
+      "id": 2,
+      "name": "Apple.inc",
+      "subject": " JavaScript developer who is proficient with React.js.  ",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 2.",
+      "time": "10:30",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 3,
+      "name": "Jone doe",
+      "subject": "Your primary focus will be on developing",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 3.",
+      "time": "09:45",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 4,
+      "name": "Samdumg skfnlsg sfdkjs v",
+      "subject": "developer who is proficient with React.js.",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 4.",
+      "time": "08:20",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 5,
+      "name": "Ssgkfngm fgodsj sifj ",
+      "subject": " amet, consectetur adipiscing elit. Mail content 5",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 5.",
+      "time": "07:55",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 6,
+      "name": "Sender 6 sjfn sfjad foiafh ",
+      "subject": "Subject 6 olor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 6.",
+      "time": "07:10",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 7,
+      "name": "Sender 7 Mail coadipiscing elit",
+      "subject": "Subject 7olor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 7.",
+      "time": "06:45",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 8,
+      "name": "Sender 8 dolor sit amet,",
+      "subject": "Subject 8olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 8.",
+      "time": "06:30",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 9,
+      "name": "Sender 9 Subject 9olor sit",
+      "subject": "Subject 9olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 9.",
+      "time": "06:20",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 10,
+      "name": "Sender 10 Mail content 10.",
+      "subject": "Subject 10olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 10.",
+      "time": "05:55",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 11,
+      "name": "Sender 11 amet, consectetur",
+      "subject": "Subject 11adipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail co",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 11.",
+      "time": "05:15",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 12,
+      "name": "Sender 12 coadipiscing ",
+      "subject": "Subject 12adipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail co",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 12.",
+      "time": "05:40",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 13,
+      "name": "Someone from Google",
+      "subject": "New application Invented",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis dignissim purus. Sed diam orci, sollicitudin non aliquet ultricies, suscipit vitae elit. V In nulla sapien, pretium at suscipit.",
+      "time": "11:18",
+      "date": "12, Oct, 2023"
+    },
+    {
+      "id": 14,
+      "name": "Apple.inc",
+      "subject": " JavaScript developer who is proficient with React.js.  ",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 2.",
+      "time": "10:30",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 15,
+      "name": "Jone doe",
+      "subject": "Your primary focus will be on developing",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 3.",
+      "time": "09:45",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 16,
+      "name": "Samdumg skfnlsg sfdkjs v",
+      "subject": "developer who is proficient with React.js.",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 4.",
+      "time": "08:20",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 17,
+      "name": "Ssgkfngm fgodsj sifj ",
+      "subject": " amet, consectetur adipiscing elit. Mail content 5",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 5.",
+      "time": "07:55",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 18,
+      "name": "Sender 6 sjfn sfjad foiafh ",
+      "subject": "Subject 6 olor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 6.",
+      "time": "07:10",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 19,
+      "name": "Sender 7 Mail coadipiscing elit",
+      "subject": "Subject 7olor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 7.",
+      "time": "06:45",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 20,
+      "name": "Sender 8 dolor sit amet,",
+      "subject": "Subject 8olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 8.",
+      "time": "06:30",
+      "date": "15, Oct, 2023"
+    },
+    {
+      "id": 21,
+      "name": "Sender 9 Subject 9olor sit",
+      "subject": "Subject 9olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 9.",
+      "time": "06:20",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 22,
+      "name": "Sender 10 Mail content 10.",
+      "subject": "Subject 10olor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elitolor sit amet, consectetur adipiscing elit",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 10.",
+      "time": "05:55",
+      "date": "14, Oct, 2023"
+    },
+    {
+      "id": 23,
+      "name": "Sender 11 amet, consectetur",
+      "subject": "Subject 11adipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail co",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 11.",
+      "time": "05:15",
+      "date": "13, Oct, 2023"
+    },
+    {
+      "id": 24,
+      "name": "Sender 12 coadipiscing ",
+      "subject": "Subject 12adipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail coadipiscing elit. Mail co",
+      "mail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mail content 12.",
+      "time": "05:40",
+      "date": "15, Oct, 2023"
+    }
+  ]
+}

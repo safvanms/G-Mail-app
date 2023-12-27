@@ -1,0 +1,198 @@
+.compose-dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 214, 214, 0.153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.compose-dialog-content {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  background-color: #ffff;
+  border-radius: 8px;
+  width: 520px;
+  height: 500px;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s;
+}
+
+.expanded_dialog {
+  background-color: #ffff;
+  border-radius: 8px;
+  width: 900px;
+  height: 550px;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.compose-dialog-header {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary);
+  padding: 10px 8px;
+}
+
+.compose-dialog-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.compose-dialog-option > * {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.compose-dialog-option > *:hover {
+  background-color: #dddddd;
+}
+
+.compose-dialog-header span {
+  font-size: 14px;
+}
+
+.compose_body_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.compose-dialog-body {
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-grow: 1;
+  justify-content: space-between; */
+}
+
+.compose-dialog-body input:nth-child(1),
+.compose-dialog-body input:nth-child(2) {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 100%;
+  border-bottom: 1px solid #dddd;
+  padding: 8px;
+}
+
+.compose-dialog-body input:nth-child(3) {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 100%;
+  padding: 6px;
+}
+
+.compose_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.main_options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  gap: 1px;
+}
+
+.send_btn {
+  display: flex;
+  background-color: #0b57d0;
+  color: #ffff;
+  width: 90px;
+  padding: 9px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+  width: 70%;
+}
+
+.btn_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.send_btn:hover {
+  background-color: #1150b6;
+}
+
+.opt_btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(79, 79, 79);
+}
+
+.opt_btn:hover {
+  background-color: #e7e7e7;
+}
+
+@media (max-width: 800px) {
+  .expand_btn {
+    display: none;
+  }
+
+  .compose_options {
+    padding: 0 5px;
+  }
+
+  .compose-dialog-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+  }
+
+  .main_options {
+    padding: 0 5px;
+  }
+
+  .send_btn {
+    width: 60px;
+  }
+
+  .opt_btn {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .compose_options {
+    flex-wrap: wrap;
+  }
+}

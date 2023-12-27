@@ -1,0 +1,49 @@
+.inboxSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #dddd;
+}
+
+.section {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px 15px;
+  gap: 10px;
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+}
+
+.selected_section {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px 15px;
+  gap: 10px;
+  font-weight: 600;
+  color: blue !important;
+  border-bottom: 3px solid blue;
+}
+
+.section .sec_icon {
+  margin-top: 2px;
+}
+
+.section:hover {
+  background-color: #e9e9e9;
+  transition: 0.5s;
+}
+
+.selected_section:hover {
+  background-color: #e9e9e9;
+}
+
+.inner_sec {
+  display: flex;
+  align-items: center;
+}

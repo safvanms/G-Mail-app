@@ -1,0 +1,115 @@
+.inbox_row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  height: 40px;
+  border-bottom: 1px solid #dddd;
+  font-size: 12px;
+}
+
+.inbox_row:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+  color: black !important;
+}
+
+.inbox_name {
+  width: 210px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.inb_sub {
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.inb_mail {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: gray;
+}
+
+.inb_time {
+  width: 80px;
+  font-size: 11px;
+  text-align: right;
+}
+
+.inbox_icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px;
+  color: #bababa;
+}
+
+.inbox_icons input {
+  border-color: #bababa !important;
+}
+
+.inbox_row:hover .inbox_icons {
+  color: #151515cc;
+}
+
+.hovered_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.sm_compose_button {
+  display: none ;
+}
+
+@media (max-width: 800px) {
+  .sm_compose_button {
+    display: block ;
+    width: 120px;
+    height: 60px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--blue);
+    margin: 10px;
+    border-radius: 15px;
+    position: fixed;
+    right: 10%;
+    top: 85%;
+  }
+
+  .inbox_icons {
+    display: none;
+  }
+
+  .inbox_name {
+    width: 210px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .inb_sub {
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .inb_mail {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: gray;
+  }
+}

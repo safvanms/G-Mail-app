@@ -1,0 +1,115 @@
+:root {
+  --main: #f6f8fc;
+  --secondary: #eaf1fb;
+  --blue: #c2e7ff;
+  --hover: #e4e4e4;
+  --navHover: #d3e3fd;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.head {
+  color: var(--blue);
+}
+
+.main_sec {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 90vh;
+  background-color: var(--main);
+}
+
+.lg_view_options {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background-color: transparent;
+  overflow: scroll;
+  transition: width 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.lg_view_options::-webkit-scrollbar,
+.mail_sec::-webkit-scrollbar {
+  width: 8px;
+}
+
+.lg_view_options::-webkit-scrollbar-thumb,
+.mail_sec::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3;
+  border-radius: 4px;
+}
+
+.lg_view_options::-webkit-scrollbar-thumb:hover,
+.mail_sec::-webkit-scrollbar-thumb:hover {
+  background-color: #838383;
+}
+
+.lg_view_options::-webkit-scrollbar-track,
+.mail_sec::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.lg_view_options::-webkit-scrollbar-corner,
+.mail_sec::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.lg_view_options::-webkit-scrollbar-track-piece,
+.mail_sec::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+.mail_sec {
+  flex: 1;
+  width: calc(100% - 250px);
+  height: 95%;
+  background-color: white;
+  border-radius: 20px;
+  /* z-index: 1000; */
+  overflow: scroll;
+}
+
+@media (max-width: 800px) {
+  .lg_view_options {
+    width: 0;
+    max-height: 100vh;
+    overflow: scroll;
+    background-color: var(--main);
+  }
+
+  .lg_view_options.sidebar-open {
+    width: 70%;
+    z-index: 9999;
+  }
+
+  .mail_sec {
+    width: calc(100% - 250px);
+    height: 100%;
+    border-radius: 0;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 801px) {
+  .lg_view_options {
+    position: static;
+    width: 250px;
+    max-height: none;
+    overflow: scroll;
+    background-color: transparent;
+    z-index: 1;
+  }
+
+  .lg_view_options.sidebar-open {
+    width: 250px;
+  }
+
+  .mail_sec {
+    flex: 0 0 calc(97% - 250px);
+    height: 95%;
+    border-radius: 20px;
+  }
+}
